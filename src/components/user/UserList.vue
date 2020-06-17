@@ -287,7 +287,7 @@ export default {
      },
      pageChange(page) {
             this.current = page;
-            this.getList();
+            this.queryList();
      },
      getList(){
              var token = localStorage.getItem('token');
